@@ -1,0 +1,43 @@
+<style>
+	html, body {
+		height: 100%;
+		background-color: #fff;
+	}
+	.cover {
+		display: table;
+		width: 100%;
+		/* cover height */						
+		height: 100%;
+		/* cover min-height */					
+		min-height: 300px;
+		background-color: #dcdcdc; 
+		/* shadows */
+		-webkit-box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+		box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+	}
+	.cover-inner {
+		display: table-cell;
+		vertical-align: middle;
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-size:contain;
+		text-align: center;
+	}
+	.cover-container {
+		margin-right: auto;
+		margin-left: auto;
+	}
+</style>
+
+<div class="cover">
+	<div class="cover-inner">
+		<div class="cover-container">
+			<div class="">
+				<!-- Start inside area -->
+				<h1>I am super centered!</h1>
+				<p>And I fit to the desktop size. If shrunk, I'm 300px tall as a minimum. :)</p>
+				<!-- End inside area -->
+			</div>
+		</div>
+	</div>
+</div>
